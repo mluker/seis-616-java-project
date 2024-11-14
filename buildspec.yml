@@ -1,5 +1,4 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
@@ -15,4 +14,5 @@ phases:
 artifacts:
   files:
     - dist/rectangle.jar
+    - appspec.yml
   name: rectangle-$(date +%y%m%d%H%M).zip
